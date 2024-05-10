@@ -10,3 +10,9 @@ For more information see the [Darknet project website](http://pjreddie.com/darkn
 For questions or issues please use the [Google Group](https://groups.google.com/forum/#!forum/darknet).
 
 Good example of how to train a model here - https://eng-memo.info/blog/yolo-original-dataset-en/
+
+on makefile line 7 remove deprecated runtimes for GPU
+
+this line only needed for T4 GPUs. 
+
+ARCH= -gencode arch=compute_75,code=[sm_75,compute_75]
