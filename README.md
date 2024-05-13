@@ -60,3 +60,10 @@ ARCH= -gencode arch=compute_75,code=[sm_75,compute_75]
 * Edit cfg/whill.data, ensure classes is correct and paths defined properly
 * Edit makefile and ensure line 1 | GPU=1
 
+
+# In Colab
+
+* Start a GPU session 
+* Open darknet.ipynb
+	* A100 GPU with High RAM
+	
